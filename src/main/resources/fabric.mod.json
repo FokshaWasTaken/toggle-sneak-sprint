@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "togglesneak-sprint",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Toggle Sneak & Sprint",
+  "description": "This mod allows you to toggle sneak and sprint buttons, using custom keybinds.",
   "authors": [
-    "Me!"
+    "Emil Carr-Ross",
+    "Foksha"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/togglesneak-sprint/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.foksha.togglesneaksprint.ToggleSneakSprint"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "togglesneak-sprint.mixins.json"
   ],
 
   "depends": {
