@@ -43,7 +43,8 @@ public class ToggleSneakSprint implements ModInitializer {
 	}
 
 	public void onTickStart(MinecraftClient client) {
-		if(keySprintToggle.isPressed())
+		if(keySprintToggle.isPressed() && client.player != null) {
 			client.player.setSprinting(true);
+		}
 	}
 }
