@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "KeyboardInputMixin"
+    "KeyboardInputMixin",
+    "InGameHudMixin"
   ],
   "injectors": {
     "defaultRequire": 1
